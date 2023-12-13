@@ -4,7 +4,7 @@ import sqlite3
 app = Bottle()
 
 # SQLite Database Initialization
-conn = sqlite3.connect('organizations.db')
+conn = sqlite3.connect('industries.db')
 cursor = conn.cursor()
 
 # Create industries table
