@@ -1,7 +1,7 @@
 import sqlite3
 
 def create_tables():
-    conn = sqlite3.connect('organizations.db')
+    conn = sqlite3.connect('industries.db')
     cursor = conn.cursor()
 
     # Create industries table
